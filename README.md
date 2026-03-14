@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Ria Chadha</h1>
-<h3 align="center">B.Tech IT @ NSUT | Machine Learning • DSA • AI Applications</h3>
+<h3 align="center">B.Tech IT @ NSUT | Machine Learning • DSA • Web Development • AI Applications </h3>
 
 <p align="center">
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Machine+Learning+Enthusiast;Building+AI+Applications;DSA+Learner;Research+in+EV+Charging+Forecasting" />
