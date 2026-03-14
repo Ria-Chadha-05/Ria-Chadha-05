@@ -23,7 +23,7 @@
 📧 [riachadha2005@gmail.com](mailto:riachadha2005@gmail.com)
 
 🔗 LinkedIn:
-https://linkedin.com/in/ria-chadha
+https://linkedin.com/in/riachadha2005
 
 💻 LeetCode:
 https://leetcode.com/riachadha2005
