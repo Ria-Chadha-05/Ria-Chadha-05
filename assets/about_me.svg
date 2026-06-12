@@ -1,0 +1,88 @@
+<svg width="100%" height="100%" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1020"/>
+      <stop offset="100%" stop-color="#11192B"/>
+    </linearGradient>
+
+    <linearGradient id="card" x1="60" y1="40" x2="1140" y2="460" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#121A2B" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#0C1220" stop-opacity="0.99"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="80" y1="80" x2="1120" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5D688A"/>
+      <stop offset="50%" stop-color="#F7A5A5"/>
+      <stop offset="100%" stop-color="#FFDBB6"/>
+    </linearGradient>
+
+    <linearGradient id="glowA" x1="120" y1="100" x2="1100" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5D688A" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#F7A5A5" stop-opacity="0.08"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="1 0 0 0 0.37
+                0 1 0 0 0.41
+                0 0 1 0 0.54
+                0 0 0 0.5 0" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="frameClip">
+      <rect x="58" y="42" width="1084" height="410" rx="26"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="520" fill="url(#bg)"/>
+
+  <g clip-path="url(#frameClip)">
+    <circle cx="188" cy="106" r="96" fill="#5D688A" opacity="0.14" filter="url(#softGlow)"/>
+    <circle cx="1010" cy="384" r="124" fill="#FFDBB6" opacity="0.08" filter="url(#softGlow)"/>
+    <circle cx="930" cy="86" r="74" fill="#F7A5A5" opacity="0.12" filter="url(#softGlow)"/>
+    <circle cx="286" cy="392" r="68" fill="#FFF2EF" opacity="0.07" filter="url(#softGlow)"/>
+    <ellipse cx="600" cy="248" rx="390" ry="170" fill="url(#glowA)" opacity="0.45" filter="url(#softGlow)"/>
+  </g>
+
+  <rect x="58" y="42" width="1084" height="410" rx="26" fill="url(#card)" stroke="url(#accent)" stroke-opacity="0.60" stroke-width="1.4"/>
+
+  <!-- centered body text -->
+  <g fill="#FFF2EF"
+     font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+     font-size="20"
+     font-weight="500"
+     letter-spacing="0.01em"
+     text-anchor="middle">
+
+    <text x="600" y="134">
+      <tspan x="600" dy="0">I’m a final-year Information Technology student at NSUT with a passion for</tspan>
+      <tspan x="600" dy="25">creating impactful digital experiences and solving real-world problems</tspan>
+      <tspan x="600" dy="25">through technology. My interests lie at the intersection of software engineering,</tspan>
+      <tspan x="600" dy="25">artificial intelligence, and data analytics, where I enjoy transforming complex</tspan>
+      <tspan x="600" dy="25">ideas into practical, user-focused solutions.</tspan>
+    </text>
+
+    <text x="600" y="258">
+      <tspan x="600" dy="0">Through projects ranging from AI-powered citation assistance and automated</tspan>
+      <tspan x="600" dy="25">timetable generation to analytics-driven platforms, I’ve built a strong foundation</tspan>
+      <tspan x="600" dy="25">in full-stack development, machine learning, and intelligent systems.</tspan>
+    </text>
+
+    <text x="600" y="338">
+      <tspan x="600" dy="0">I’m constantly exploring new technologies, refining my problem-solving skills,</tspan>
+      <tspan x="600" dy="25">and challenging myself through ambitious projects. My goal is to build software</tspan>
+      <tspan x="600" dy="25">that is not only technically robust but also meaningful, accessible, and</tspan>
+      <tspan x="600" dy="25">impactful for the people who use it.</tspan>
+    </text>
+  </g>
+
+  <!-- typing cursor -->
+  <rect x="600" y="424" width="10" height="24" rx="3" fill="#FFF2EF" opacity="0.8">
+    <animate attributeName="opacity" values="1;0;1" dur="1.05s" repeatCount="indefinite" />
+  </rect>
+</svg>
