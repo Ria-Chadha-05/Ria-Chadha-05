@@ -57,7 +57,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=120&text=GitHub%20Stats&fontSize=42&fontColor=FFF2EF&color=0:F7A5A5,100:5D688A" />
 
-<table align="center">
+<!-- <table align="center">
 <tr>
 <td>
 
@@ -71,7 +71,7 @@
 
 </td>
 </tr>
-</table>
+</table> -->
 
 <div align="center">
 
