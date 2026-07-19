@@ -1,96 +1,118 @@
-<svg width="100%" height="100%" viewBox="0 0 1120 620" fill="none" xmlns="http://www.w3.org/2000/svg"
+<svg width="100%" height="100%" viewBox="0 0 1120 920" fill="none" xmlns="http://www.w3.org/2000/svg"
   shape-rendering="geometricPrecision" text-rendering="geometricPrecision" preserveAspectRatio="xMidYMid meet">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1120" y2="620" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0B1020"/>
-      <stop offset="100%" stop-color="#11192B"/>
-    </linearGradient>
-
-    <linearGradient id="accent" x1="120" y1="80" x2="1000" y2="560" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#5D688A"/>
-      <stop offset="45%" stop-color="#F7A5A5"/>
-      <stop offset="100%" stop-color="#FFDBB6"/>
-    </linearGradient>
-
-    <linearGradient id="cardFill" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#121A2B"/>
-      <stop offset="100%" stop-color="#0C1220"/>
-    </linearGradient>
-
-    <style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1120" y2="920" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#0B1020"/>
+<stop offset="100%" stop-color="#11192B"/>
+</linearGradient>
+<linearGradient id="accent" x1="120" y1="80" x2="1000" y2="560" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#5D688A"/>
+<stop offset="45%" stop-color="#F7A5A5"/>
+<stop offset="100%" stop-color="#FFDBB6"/>
+</linearGradient>
+<linearGradient id="cardFill" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#121A2B"/>
+<stop offset="100%" stop-color="#0C1220"/>
+</linearGradient>
+<style>
       .title { font: 800 54px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
       .cardTitle { font: 700 24px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
       .body { font: 500 15px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
       .pill { font: 600 12px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    </style>
-  </defs>
+</style>
+</defs>
+<rect width="1120" height="920" fill="url(#bg)"/>
+<rect x="20" y="20" width="1080" height="880" rx="28"
+fill="url(#cardFill)" stroke="url(#accent)" stroke-opacity="0.45" stroke-width="1.5"/>
 
-  <rect width="1120" height="620" fill="url(#bg)"/>
+<!-- Row 1 Left: Chronos -->
+<rect x="48" y="48" width="490" height="240" rx="22"
+fill="#0E1525" stroke="#5D688A" stroke-opacity="0.55" stroke-width="1.2"/>
+<rect x="48" y="48" width="490" height="10" rx="5" fill="url(#accent)" opacity="0.85"/>
+<text x="74" y="105" class="cardTitle" fill="#FFF2EF">🧠 Chronos</text>
+<text x="74" y="136" class="body" fill="#FFF2EF" opacity="0.92">AI Chief of Staff platform integrating Gmail,</text>
+<text x="74" y="158" class="body" fill="#FFF2EF" opacity="0.92">Google Calendar and Gemini to generate</text>
+<text x="74" y="180" class="body" fill="#FFF2EF" opacity="0.92">personalized schedules, task prioritization</text>
+<rect x="74" y="205" rx="10" width="78" height="26" fill="#5D688A" opacity="0.95"/>
+<rect x="160" y="205" rx="10" width="72" height="26" fill="#F7A5A5" opacity="0.95"/>
+<rect x="240" y="205" rx="10" width="66" height="26" fill="#FFDBB6" opacity="0.98"/>
+<text x="113" y="222" text-anchor="middle" class="pill" fill="#FFF2EF">FastAPI</text>
+<text x="196" y="222" text-anchor="middle" class="pill" fill="#0B1020">Gemini</text>
+<text x="273" y="222" text-anchor="middle" class="pill" fill="#0B1020">React</text>
 
-  <rect x="20" y="20" width="1080" height="580" rx="28"
-        fill="url(#cardFill)" stroke="url(#accent)" stroke-opacity="0.45" stroke-width="1.5"/>
+<!-- Row 1 Right: Referra -->
+<rect x="582" y="48" width="490" height="240" rx="22"
+fill="#0E1525" stroke="#F7A5A5" stroke-opacity="0.45" stroke-width="1.2"/>
+<rect x="582" y="48" width="490" height="10" rx="5" fill="url(#accent)" opacity="0.8"/>
+<text x="608" y="105" class="cardTitle" fill="#FFF2EF">📚 Referra</text>
+<text x="608" y="136" class="body" fill="#FFF2EF" opacity="0.92">Hybrid RAG citation assistant with a</text>
+<text x="608" y="158" class="body" fill="#FFF2EF" opacity="0.92">9-step NLP pipeline, semantic retrieval,</text>
+<text x="608" y="180" class="body" fill="#FFF2EF" opacity="0.92">OpenAlex fallback and multi-stage review.</text>
+<rect x="608" y="205" rx="10" width="78" height="26" fill="#5D688A" opacity="0.95"/>
+<rect x="694" y="205" rx="10" width="66" height="26" fill="#F7A5A5" opacity="0.95"/>
+<rect x="768" y="205" rx="10" width="66" height="26" fill="#FFDBB6" opacity="0.98"/>
+<text x="647" y="222" text-anchor="middle" class="pill" fill="#FFF2EF">FastAPI</text>
+<text x="727" y="222" text-anchor="middle" class="pill" fill="#0B1020">FAISS</text>
+<text x="801" y="222" text-anchor="middle" class="pill" fill="#0B1020">React</text>
 
-  <!-- Top left card -->
-  <rect x="48" y="48" width="490" height="240" rx="22"
-        fill="#0E1525" stroke="#5D688A" stroke-opacity="0.55" stroke-width="1.2"/>
-  <rect x="48" y="48" width="490" height="10" rx="5" fill="url(#accent)" opacity="0.85"/>
-  <text x="74" y="105" class="cardTitle" fill="#FFF2EF">📚 Referra</text>
-  <text x="74" y="136" class="body" fill="#FFF2EF" opacity="0.92">AI citation assistant with a 4-stage NLP pipeline,</text>
-  <text x="74" y="158" class="body" fill="#FFF2EF" opacity="0.92">React review UI, and export to APA, IEEE, MLA,</text>
-  <text x="74" y="180" class="body" fill="#FFF2EF" opacity="0.92">BibTeX, RIS, Word, and PDF.</text>
+<!-- Row 2 Left: IntelliSched -->
+<rect x="48" y="320" width="490" height="240" rx="22"
+fill="#0E1525" stroke="#5D688A" stroke-opacity="0.55" stroke-width="1.2"/>
+<rect x="48" y="320" width="490" height="10" rx="5" fill="url(#accent)" opacity="0.8"/>
+<text x="74" y="377" class="cardTitle" fill="#FFF2EF">📅 IntelliSched</text>
+<text x="74" y="408" class="body" fill="#FFF2EF" opacity="0.92">Dual-LLM timetable generator with</text>
+<text x="74" y="430" class="body" fill="#FFF2EF" opacity="0.92">constraint satisfaction, admin chatbot</text>
+<text x="74" y="452" class="body" fill="#FFF2EF" opacity="0.92">and weather automation via Vercel Cron.</text>
+<rect x="74" y="477" rx="10" width="66" height="26" fill="#5D688A" opacity="0.95"/>
+<rect x="148" y="477" rx="10" width="66" height="26" fill="#F7A5A5" opacity="0.95"/>
+<rect x="222" y="477" rx="10" width="66" height="26" fill="#FFDBB6" opacity="0.98"/>
+<text x="107" y="494" text-anchor="middle" class="pill" fill="#FFF2EF">React</text>
+<text x="181" y="494" text-anchor="middle" class="pill" fill="#0B1020">Groq</text>
+<text x="255" y="494" text-anchor="middle" class="pill" fill="#0B1020">Node.js</text>
 
-  <rect x="74" y="205" rx="10" width="78" height="26" fill="#5D688A" opacity="0.95"/>
-  <rect x="160" y="205" rx="10" width="66" height="26" fill="#F7A5A5" opacity="0.95"/>
-  <rect x="234" y="205" rx="10" width="66" height="26" fill="#FFDBB6" opacity="0.98"/>
-  <text x="113" y="222" text-anchor="middle" class="pill" fill="#FFF2EF">FastAPI</text>
-  <text x="193" y="222" text-anchor="middle" class="pill" fill="#0B1020">spaCy</text>
-  <text x="267" y="222" text-anchor="middle" class="pill" fill="#0B1020">React</text>
+<!-- Row 2 Right: Vaishali Electronics -->
+<rect x="582" y="320" width="490" height="240" rx="22"
+fill="#0E1525" stroke="#F7A5A5" stroke-opacity="0.45" stroke-width="1.2"/>
+<rect x="582" y="320" width="490" height="10" rx="5" fill="url(#accent)" opacity="0.8"/>
+<text x="608" y="377" class="cardTitle" fill="#FFF2EF">🛒 Vaishali Electronics</text>
+<text x="608" y="408" class="body" fill="#FFF2EF" opacity="0.92">AI-powered retail platform built through</text>
+<text x="608" y="430" class="body" fill="#FFF2EF" opacity="0.92">product discovery, customer funnel analysis,</text>
+<text x="608" y="452" class="body" fill="#FFF2EF" opacity="0.92">UX strategy and AI shopping assistant design.</text>
+<rect x="608" y="477" rx="10" width="66" height="26" fill="#5D688A" opacity="0.95"/>
+<rect x="682" y="477" rx="10" width="66" height="26" fill="#F7A5A5" opacity="0.95"/>
+<rect x="756" y="477" rx="10" width="78" height="26" fill="#FFDBB6" opacity="0.98"/>
+<text x="641" y="494" text-anchor="middle" class="pill" fill="#FFF2EF">React</text>
+<text x="715" y="494" text-anchor="middle" class="pill" fill="#0B1020">Figma</text>
+<text x="795" y="494" text-anchor="middle" class="pill" fill="#0B1020">Product</text>
 
-  <!-- Top right card -->
-  <rect x="582" y="48" width="490" height="240" rx="22"
-        fill="#0E1525" stroke="#F7A5A5" stroke-opacity="0.45" stroke-width="1.2"/>
-  <rect x="582" y="48" width="490" height="10" rx="5" fill="url(#accent)" opacity="0.8"/>
-  <text x="608" y="105" class="cardTitle" fill="#FFF2EF">🗓 IntelliSched</text>
-  <text x="608" y="136" class="body" fill="#FFF2EF" opacity="0.92">LLM-powered timetable generator that resolves</text>
-  <text x="608" y="158" class="body" fill="#FFF2EF" opacity="0.92">institutional constraints in one click, with weather</text>
-  <text x="608" y="180" class="body" fill="#FFF2EF" opacity="0.92">based auto-cancellation via Vercel Cron.</text>
+<!-- Row 3 Left: Ayuh Bot Audit -->
+<rect x="48" y="592" width="490" height="240" rx="22"
+fill="#0E1525" stroke="#5D688A" stroke-opacity="0.55" stroke-width="1.2"/>
+<rect x="48" y="592" width="490" height="10" rx="5" fill="url(#accent)" opacity="0.8"/>
+<text x="74" y="649" class="cardTitle" fill="#FFF2EF">🤖 Ayuh Bot Audit</text>
+<text x="74" y="680" class="body" fill="#FFF2EF" opacity="0.92">Analyzed 7,593 production chatbot sessions,</text>
+<text x="74" y="702" class="body" fill="#FFF2EF" opacity="0.92">identified failure patterns and built</text>
+<text x="74" y="724" class="body" fill="#FFF2EF" opacity="0.92">interactive analytics dashboards.</text>
+<rect x="74" y="749" rx="10" width="74" height="26" fill="#F7A5A5" opacity="0.95"/>
+<rect x="156" y="749" rx="10" width="98" height="26" fill="#FFDBB6" opacity="0.98"/>
+<rect x="262" y="749" rx="10" width="64" height="26" fill="#5D688A" opacity="0.95"/>
+<text x="111" y="766" text-anchor="middle" class="pill" fill="#0B1020">Langfuse</text>
+<text x="205" y="766" text-anchor="middle" class="pill" fill="#0B1020">JavaScript</text>
+<text x="294" y="766" text-anchor="middle" class="pill" fill="#FFF2EF">Excel</text>
 
-  <rect x="608" y="205" rx="10" width="66" height="26" fill="#5D688A" opacity="0.95"/>
-  <rect x="682" y="205" rx="10" width="76" height="26" fill="#F7A5A5" opacity="0.95"/>
-  <rect x="766" y="205" rx="10" width="60" height="26" fill="#FFDBB6" opacity="0.98"/>
-  <text x="641" y="222" text-anchor="middle" class="pill" fill="#FFF2EF">React</text>
-  <text x="720" y="222" text-anchor="middle" class="pill" fill="#0B1020">Node.js</text>
-  <text x="796" y="222" text-anchor="middle" class="pill" fill="#0B1020">Groq</text>
+<!-- Row 3 Right: Healthcare Data Analysis -->
+<rect x="582" y="592" width="490" height="240" rx="22"
+fill="#0E1525" stroke="#F7A5A5" stroke-opacity="0.45" stroke-width="1.2"/>
+<rect x="582" y="592" width="490" height="10" rx="5" fill="url(#accent)" opacity="0.8"/>
+<text x="608" y="649" class="cardTitle" fill="#FFF2EF">🏥 Healthcare Data Analysis</text>
+<text x="608" y="680" class="body" fill="#FFF2EF" opacity="0.92">Built an end-to-end healthcare analytics</text>
+<text x="608" y="702" class="body" fill="#FFF2EF" opacity="0.92">pipeline with Dockerized PostgreSQL,</text>
+<text x="608" y="724" class="body" fill="#FFF2EF" opacity="0.92">SQLAlchemy and interactive dashboards.</text>
+<rect x="608" y="749" rx="10" width="90" height="26" fill="#5D688A" opacity="0.95"/>
+<rect x="706" y="749" rx="10" width="72" height="26" fill="#F7A5A5" opacity="0.95"/>
+<rect x="786" y="749" rx="10" width="94" height="26" fill="#FFDBB6" opacity="0.98"/>
+<text x="653" y="766" text-anchor="middle" class="pill" fill="#FFF2EF">PostgreSQL</text>
+<text x="742" y="766" text-anchor="middle" class="pill" fill="#0B1020">Docker</text>
+<text x="833" y="766" text-anchor="middle" class="pill" fill="#0B1020">SQLAlchemy</text>
 
-  <!-- Bottom left card -->
-  <rect x="48" y="320" width="490" height="240" rx="22"
-        fill="#0E1525" stroke="#5D688A" stroke-opacity="0.55" stroke-width="1.2"/>
-  <rect x="48" y="320" width="490" height="10" rx="5" fill="url(#accent)" opacity="0.8"/>
-  <text x="74" y="377" class="cardTitle" fill="#FFF2EF">🤖 Ayuh Bot Audit</text>
-  <text x="74" y="408" class="body" fill="#FFF2EF" opacity="0.92">Analyzed 7,593 sessions to find key failure</text>
-  <text x="74" y="430" class="body" fill="#FFF2EF" opacity="0.92">patterns and built an interactive dashboard for</text>
-  <text x="74" y="452" class="body" fill="#FFF2EF" opacity="0.92">resolution rates and routing health.</text>
-
-  <rect x="74" y="477" rx="10" width="74" height="26" fill="#F7A5A5" opacity="0.95"/>
-  <rect x="156" y="477" rx="10" width="98" height="26" fill="#FFDBB6" opacity="0.98"/>
-  <rect x="262" y="477" rx="10" width="64" height="26" fill="#5D688A" opacity="0.95"/>
-  <text x="111" y="494" text-anchor="middle" class="pill" fill="#0B1020">Langfuse</text>
-  <text x="205" y="494" text-anchor="middle" class="pill" fill="#0B1020">HTML/CSS/JS</text>
-  <text x="294" y="494" text-anchor="middle" class="pill" fill="#FFF2EF">Excel</text>
-
-  <!-- Bottom right card -->
-  <rect x="582" y="320" width="490" height="240" rx="22"
-        fill="#0E1525" stroke="#F7A5A5" stroke-opacity="0.45" stroke-width="1.2"/>
-  <rect x="582" y="320" width="490" height="10" rx="5" fill="url(#accent)" opacity="0.8"/>
-  <text x="608" y="377" class="cardTitle" fill="#FFF2EF">🏥 Healthcare Data Analysis</text>
-  <text x="608" y="408" class="body" fill="#FFF2EF" opacity="0.92">Built an end-to-end pipeline for a 10K-row dataset,</text>
-  <text x="608" y="430" class="body" fill="#FFF2EF" opacity="0.92">Dockerized PostgreSQL ingestion, enrichment, and</text>
-  <text x="608" y="452" class="body" fill="#FFF2EF" opacity="0.92">interactive trend visualization.</text>
-
-  <rect x="608" y="477" rx="10" width="90" height="26" fill="#5D688A" opacity="0.95"/>
-  <rect x="706" y="477" rx="10" width="72" height="26" fill="#F7A5A5" opacity="0.95"/>
-  <rect x="786" y="477" rx="10" width="94" height="26" fill="#FFDBB6" opacity="0.98"/>
-  <text x="653" y="494" text-anchor="middle" class="pill" fill="#FFF2EF">PostgreSQL</text>
-  <text x="742" y="494" text-anchor="middle" class="pill" fill="#0B1020">Docker</text>
-  <text x="833" y="494" text-anchor="middle" class="pill" fill="#0B1020">SQLAlchemy</text>
 </svg>
